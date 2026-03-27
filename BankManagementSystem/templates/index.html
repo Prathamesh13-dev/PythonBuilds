@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank System</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        h2 {
+            color: #333;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome to Bank</h2>
+
+    <button onclick="location.href='/create_page'">1. Create New Account</button>
+    <button onclick="location.href='/withdraw_page'">2. Withdraw Money</button>
+    <button onclick="location.href='/deposit_page'">3. Deposit Money</button>
+    <button onclick="location.href='/balance_page'">4. Check Balance</button>
+    <button onclick="location.href='/accounts'">5. Number of Accounts</button>
+</div>
+
+</body>
+</html>
